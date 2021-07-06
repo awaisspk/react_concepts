@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import Login from "./components/Login.js";
 import Mailbox from "./components/Mailbox.js";
+import ListItems from "./components/ListItems.js";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <Login />
       <Mailbox unreadmessages={messages} />
+      <ListItems />
     </div>
   );
 }
