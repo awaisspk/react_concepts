@@ -1,24 +1,23 @@
-import logo from "./logo.svg";
-import Login from "./components/Login.js";
+import logo from './logo.svg';
+// import Calculator from './components/Calculator.js';
+/* import Login from "./components/Login.js";
 import Mailbox from "./components/Mailbox.js";
 import ListItems from "./components/ListItems.js";
-import FlavorForm from "./components/Select.js";
-import "./App.css";
+import FlavorForm from "./components/Select.js"; */
+import WelcomeDialog from './components/WelcomeDialog.js';
+import NameForm from './components/NameForm.js';
+import EssayForm from './components/EssayForm.js';
+import FlavorForm from './components/FlavorForm.js';
+import Reservation from './components/Reservation';
+import './App.css';
 
 function App() {
-  const messages = [
-    "React",
-    "Re: React",
-    "Re:Re: React",
-    "React",
-    "Re: React",
-    "Re:Re: React",
-  ];
   return (
     <div className="App">
-      <Login />
-      <Mailbox unreadmessages={messages} />
-      <FlavorForm />
+      <NameForm />
+      <EssayForm />
+      <FlavorForm value="hi" />
+      <Reservation />
     </div>
   );
 }
