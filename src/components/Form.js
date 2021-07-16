@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 function Form() {
-  const [value, setValue] = useState("text area rocks");
+  const [value, setValue] = useState('text area rocks');
 
   function handleChange(event) {
     setValue(event.target.value);
   }
 
   function handleSubmit(event) {
-    alert("A name was submitted " + value);
+    alert('A name was submitted ' + value);
     event.preventDefault();
   }
 

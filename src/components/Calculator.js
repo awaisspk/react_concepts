@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import BoilingVerdict from "./BoilingVerdict.js";
+import React, { useState } from 'react';
+import BoilingVerdict from './BoilingVerdict.js';
 
 function Calculator() {
   const [temperature, setTemperature] = useState(0);

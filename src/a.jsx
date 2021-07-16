@@ -17,9 +17,10 @@ function App() {
       <EssayForm />
       <FlavorForm value="hi" />
       <Reservation />
-      <WelcomeDialog />
     </div>
   );
 }
 
 export default App;
+
+// autocmd FileType javascript.jsx setlocal commentstring={/*\ %s\ */}
