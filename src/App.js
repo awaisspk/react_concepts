@@ -3,21 +3,18 @@
 import Mailbox from "./components/Mailbox.js";
 import ListItems from "./components/ListItems.js";
 import FlavorForm from "./components/Select.js"; */
-import WelcomeDialog from './components/WelcomeDialog.js';
-import NameForm from './components/NameForm.js';
-import EssayForm from './components/EssayForm.js';
-import FlavorForm from './components/FlavorForm.js';
-import Reservation from './components/Reservation';
+// import WelcomeDialog from './components/WelcomeDialog.js';
+// import NameForm from './components/NameForm.js';
+// import EssayForm from './components/EssayForm.js';
+// import FlavorForm from './components/FlavorForm.js';
+// import Reservation from './components/Reservation';
+import Calculator from './components/LiftState/Calculator';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <NameForm />
-      <EssayForm />
-      <FlavorForm value="hi" />
-      <Reservation />
-      <WelcomeDialog />
+      <Calculator />
     </div>
   );
 }
